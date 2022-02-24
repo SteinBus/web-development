@@ -1,5 +1,4 @@
 <?php
-echo !is_numeric('6d5d') ? "true " : "false ";
 if ($_GET['email'] <> '') {
   $file_name = './data/' . $_GET['email'] . '.txt';
   if (file_exists($file_name)) {
