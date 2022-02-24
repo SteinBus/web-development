@@ -1,2 +1,2 @@
 <?php
-echo implode(' ', explode(' ', $_GET['text']));
+echo implode(' ', array_filter(explode(' ', $_GET['text'])));
